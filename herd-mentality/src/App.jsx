@@ -155,7 +155,7 @@ export default function App() {
       fontFamily: "sans-serif"
     }}>
       <h1 style={{ fontSize: "2rem", marginBottom: "20px", color: "#166534" }}>
-        🐄 Herd Mentality
+        🐄 Herd Mentality Martins Kräft
       </h1>
       <div style={{
         maxWidth: "600px",
