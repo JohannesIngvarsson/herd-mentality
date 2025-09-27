@@ -158,9 +158,9 @@ export default function App() {
         🐄 Herd Mentality Martins Kräftskiva
       </h1>
       <div style={{
-        maxWidth: "600px",
+        maxWidth: "400px",
         minHeight: "100px",
-        minWidth: "600px",
+        minWidth: "400px",
         padding: "20px",
         borderRadius: "16px",
         background: "white",
