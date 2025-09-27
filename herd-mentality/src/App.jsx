@@ -160,6 +160,7 @@ export default function App() {
       <div style={{
         maxWidth: "600px",
         minHeight: "100px",
+        minWidth: "600px"
         padding: "20px",
         borderRadius: "16px",
         background: "white",
