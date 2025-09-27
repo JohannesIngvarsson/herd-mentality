@@ -159,6 +159,7 @@ export default function App() {
       </h1>
       <div style={{
         maxWidth: "600px",
+        minHeight: "100px",
         padding: "20px",
         borderRadius: "16px",
         background: "white",
