@@ -167,7 +167,7 @@ export default function App() {
         background: "white",
         boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
         textAlign: "center",
-        fontSize: "1.2rem",
+        fontSize: "1.6rem",
         color: "#000"   // svart text
       }}>
         {question}
