@@ -176,12 +176,12 @@ export default function App() {
         onClick={newQuestion}
         style={{
           marginTop: "20px",
-          padding: "10px 20px",
+          padding: "20px 40px",
           border: "none",
           borderRadius: "12px",
           background: "#22c55e",
           color: "white",
-          fontSize: "1rem",
+          fontSize: "2rem",
           cursor: "pointer"
         }}
       >
