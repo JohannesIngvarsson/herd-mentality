@@ -19,7 +19,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Du får en fruktkorg med bara en sorts frukt. Vad hoppas du på?"
+    "text": "Vilken frukt skulle du helst få i en fruktkorg?"
   },
   {
     "category": "Mat & dryck",
@@ -35,7 +35,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Barndomens bästa glassmak?"
+    "text": "Vilken glassmak känns mest som barndom?"
   },
   {
     "category": "Mat & dryck",
@@ -59,7 +59,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Efter en sen utekväll – vad äter man?"
+    "text": "Vilken mat beställer man efter en sen utekväll?"
   },
   {
     "category": "Mat & dryck",
@@ -87,7 +87,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Vad är jobbigast att skala i fruktdisken?"
+    "text": "Vilken frukt är svårast att skala?"
   },
   {
     "category": "Mat & dryck",
@@ -99,7 +99,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Vad smakar bäst som rester dagen efter?"
+    "text": "Vilken mat är godast dagen efter?"
   },
   {
     "category": "Mat & dryck",
@@ -135,7 +135,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Strömavbrott i ett dygn. Vad saknar du mest?"
+    "text": "Vilken pryl skulle du sakna mest vid strömavbrott?"
   },
   {
     "category": "Vardag",
@@ -151,7 +151,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vad tappar folk bort hela tiden?"
+    "text": "Vilken sak tappar folk bort oftast?"
   },
   {
     "category": "Vardag",
@@ -175,7 +175,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Mobilen dör. Vad letar du efter?"
+    "text": "Vilken pryl letar man efter när mobilen dör?"
   },
   {
     "category": "Vardag",
@@ -199,7 +199,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Allsång på festen – vad sjunger alla?"
+    "text": "Vilken låt får flest att sjunga med?"
   },
   {
     "category": "Fest & socialt",
@@ -219,7 +219,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vad brukar folk ta med för mycket av till festen?"
+    "text": "Vilken dryck brukar någon ta med för mycket av?"
   },
   {
     "category": "Fest & socialt",
@@ -239,7 +239,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Förfest – vad dricker flest?"
+    "text": "Vilken dryck förknippar flest med förfest?"
   },
   {
     "category": "Fest & socialt",
@@ -255,7 +255,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Fest mitt i veckan – sämsta dagen?"
+    "text": "Vilken veckodag är sämst för en fest?"
   },
   {
     "category": "Fest & socialt",
@@ -271,11 +271,11 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Kräftskiva – vilken låt måste spelas?"
+    "text": "Vilken låt är mest självklar på en kräftskiva?"
   },
   {
     "category": "Popkultur",
-    "text": "En filmfigur med helt omisskännlig frisyr. Vem?"
+    "text": "Vilken filmfigur har mest igenkännbar frisyr?"
   },
   {
     "category": "Popkultur",
@@ -283,7 +283,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "En svensk artist som alla kan sjunga med till?"
+    "text": "Vilken svensk artist kan precis alla sjunga med till?"
   },
   {
     "category": "Popkultur",
@@ -303,7 +303,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Vem borde leda Melodifestivalen?"
+    "text": "Vilken kändis skulle vara roligast som programledare för Melodifestivalen?"
   },
   {
     "category": "Popkultur",
@@ -311,7 +311,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Bröllopsfest. Vad spelar DJ:n garanterat?"
+    "text": "Vilken låt är omöjlig att undvika på ett bröllop?"
   },
   {
     "category": "Popkultur",
@@ -331,11 +331,11 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Världens mest kända filmhund?"
+    "text": "Vilken filmhund är mest känd?"
   },
   {
     "category": "Popkultur",
-    "text": "Julfilm nummer ett?"
+    "text": "Vilken film förknippar du mest med julen?"
   },
   {
     "category": "Popkultur",
@@ -363,7 +363,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Gratis konsert på torget. Vem drar mest folk?"
+    "text": "Vilken artist skulle dra störst publik på en gratis konsert?"
   },
   {
     "category": "Knasigt",
@@ -375,7 +375,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "En extra kroppsdel – vad vore jobbigast?"
+    "text": "Vilken kroppsdel skulle vara jobbigast att ha dubbelt av?"
   },
   {
     "category": "Knasigt",
@@ -395,7 +395,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "En vardagspryl i jätteformat. Vad blir roligast?"
+    "text": "Vilken vardagspryl skulle vara roligast i jättestorlek?"
   },
   {
     "category": "Knasigt",
@@ -427,7 +427,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Du upptäcker en ny planet. Vad har den för färg?"
+    "text": "Vilken färg skulle din egen planet ha?"
   },
   {
     "category": "Knasigt",
@@ -455,11 +455,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Dejtingappar – vilken tänker du på först?"
+    "text": "Vilken dejtingapp är mest känd?"
   },
   {
     "category": "Vuxet",
-    "text": "Du får gå på dejt med en kändis. Vem?"
+    "text": "Vilken kändis skulle du helst gå på dejt med?"
   },
   {
     "category": "Vuxet",
@@ -483,7 +483,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "En emoji till chefen av misstag – vilken är värst?"
+    "text": "Vilken emoji vore värst att skicka till chefen?"
   },
   {
     "category": "Vuxet",
@@ -495,7 +495,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vem av alla kändisar kan minst hålla en hemlighet?"
+    "text": "Vilken kändis skulle vara sämst på att hålla en hemlighet?"
   },
   {
     "category": "Vuxet",
@@ -507,11 +507,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är den mest attraktiva hobbyn?"
+    "text": "Vilken hobby är mest attraktiv?"
   },
   {
     "category": "Vuxet",
-    "text": "Vad ger värst baksmälla?"
+    "text": "Vilken dryck ger värst baksmälla?"
   },
   {
     "category": "Vuxet",
@@ -567,7 +567,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Efter en dag i skidbacken – vad gör man helst?"
+    "text": "Vilken aktivitet förknippar du mest med skidsemester?"
   },
   {
     "category": "Resor & upplevelser",
@@ -595,7 +595,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Turistkartan: vad letar man efter först?"
+    "text": "Vilken symbol letar alla efter på en turistkarta?"
   },
   {
     "category": "Resor & upplevelser",
@@ -615,7 +615,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "På solsemestern bokar man en utflykt. Vad blir det?"
+    "text": "Vilken typ av utflykt är vanligast på en solsemester?"
   },
   {
     "category": "Resor & upplevelser",
@@ -631,11 +631,11 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Kontorets mest överskattade pryl?"
+    "text": "Vilken kontorspryl är mest överskattad?"
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Mötet börjar om en minut. Vad strular?"
+    "text": "Vilken pryl krånglar oftast i ett mötesrum?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -647,7 +647,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vad försvinner oftast ur kontorsköket?"
+    "text": "Vilken sak försvinner oftast från kontorets kök?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -659,7 +659,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "När går flest hem tidigt från jobbet?"
+    "text": "Vilken veckodag går folk hem tidigast?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -667,7 +667,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Presentation om fem minuter. Vad krånglar?"
+    "text": "Vilken pryl krånglar oftast under en presentation?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -691,7 +691,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Mest använda emojin i Teams?"
+    "text": "Vilken emoji används mest i Teams?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -727,7 +727,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Om favoritpizzan är slut – vilken beställer du då?"
+    "text": "Vilken är världens näst godaste pizza?"
   },
   {
     "category": "Mat & dryck",
@@ -739,7 +739,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Mataffärens jobbigaste avdelning?"
+    "text": "Vilken avdelning i mataffären är jobbigast att handla på?"
   },
   {
     "category": "Vardag",
@@ -747,7 +747,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "En drink som får för mycket beröm?"
+    "text": "Vilken drink är mest överskattad?"
   },
   {
     "category": "Knasigt",
@@ -795,7 +795,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Filmmusik som alla känner igen – från vilken film?"
+    "text": "Vilken film har den mest igenkännbara musiken?"
   },
   {
     "category": "Film",
@@ -807,11 +807,11 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Vem är den största actionstjärnan?"
+    "text": "Vilken skådespelare är mest förknippad med actionfilmer?"
   },
   {
     "category": "Film",
-    "text": "Gråtgaranti på film – vilken titel?"
+    "text": "Vilken film får flest att gråta?"
   },
   {
     "category": "Film",
@@ -831,7 +831,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Film som alla kan citera?"
+    "text": "Vilken film är roligast att citera?"
   },
   {
     "category": "Film",
@@ -839,7 +839,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Sjukdag i soffan – vad sätter du på?"
+    "text": "Vilken film är bäst att se när man är sjuk?"
   },
   {
     "category": "Film",
@@ -847,11 +847,11 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Du hör ordet dinosauriefilm. Vad tänker du på?"
+    "text": "Vilken film är mest förknippad med dinosaurier?"
   },
   {
     "category": "Film",
-    "text": "Filmserien som borde ha slutat tidigare?"
+    "text": "Vilken filmserie borde ha slutat tidigare?"
   },
   {
     "category": "Film",
@@ -859,11 +859,11 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Rymdfilm nummer ett?"
+    "text": "Vilken film är mest förknippad med rymden?"
   },
   {
     "category": "Film",
-    "text": "Vem borde bli nästa James Bond?"
+    "text": "Vilken skådespelare skulle passa bäst som James Bond?"
   },
   {
     "category": "Film",
@@ -871,7 +871,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Pirater på film – vilken tänker du på?"
+    "text": "Vilken film är mest förknippad med pirater?"
   },
   {
     "category": "Film",
@@ -879,7 +879,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Sveriges roligaste film?"
+    "text": "Vilken film är den bästa svenska komedin?"
   },
   {
     "category": "Film",
@@ -887,11 +887,11 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Hajar på bio – vilken film?"
+    "text": "Vilken film är mest förknippad med en haj?"
   },
   {
     "category": "Film",
-    "text": "Vem är den roligaste skådespelaren?"
+    "text": "Vilken skådespelare är roligast?"
   },
   {
     "category": "Film",
