@@ -6,6 +6,7 @@ const categories = [
   "Vardag",
   "Fest & socialt",
   "Popkultur",
+  "Film",
   "Knasigt",
   "Vuxet",
   "Resor & upplevelser",
@@ -18,7 +19,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Vilken maträtt kan precis alla laga – men ingen riktigt bra?"
+    "text": "Vilken maträtt misslyckas flest med trots att den är enkel?"
   },
   {
     "category": "Mat & dryck",
@@ -106,7 +107,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Vilken är den näst godaste efterrätten?"
+    "text": "Vilken är den näst godaste glassmaken?"
   },
   {
     "category": "Mat & dryck",
@@ -122,7 +123,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Vad skulle du servera en utomjording till middag?"
+    "text": "Vilken svensk maträtt borde en utomjording prova först?"
   },
   {
     "category": "Mat & dryck",
@@ -202,7 +203,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vilken är den mest genomskinliga ursäkten för att komma sent?"
+    "text": "Vilken trafikorsak skyller folk oftast sin försening på?"
   },
   {
     "category": "Vardag",
@@ -226,7 +227,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vad är det första man gör när mobilen dör?"
+    "text": "Vilken pryl letar man efter när mobilen dör?"
   },
   {
     "category": "Vardag",
@@ -246,7 +247,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vad skulle du rädda först om det började läcka vatten hemma?"
+    "text": "Vilken möbel är värst att få vattenskadad?"
   },
   {
     "category": "Vardag",
@@ -282,7 +283,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vilken ursäkt för att lämna festen är svårast att genomskåda?"
+    "text": "Vilket djur skulle vara den bästa ursäkten för att lämna en fest?"
   },
   {
     "category": "Fest & socialt",
@@ -322,7 +323,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vad är det första tecknet på att någon blivit för full?"
+    "text": "Vilken kroppsdel avslöjar först att någon är full?"
   },
   {
     "category": "Fest & socialt",
@@ -342,7 +343,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vad är det vanligaste folk ljuger om när de tackar nej till en fest?"
+    "text": "Vilken sjukdom skyller folk oftast på för att slippa en fest?"
   },
   {
     "category": "Fest & socialt",
@@ -370,7 +371,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vad är det värsta att höra från grannen mitt under festen?"
+    "text": "Vilken myndighet vill du minst att grannen ringer under festen?"
   },
   {
     "category": "Popkultur",
@@ -434,7 +435,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Vilken låt kan alla refrängen till men ingen verserna?"
+    "text": "Vilken artist har flest låtar man bara kan refrängen till?"
   },
   {
     "category": "Popkultur",
@@ -478,7 +479,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Vad är det första du tänker på när du hör Harry Potter?"
+    "text": "Vilket föremål förknippar du mest med Harry Potter?"
   },
   {
     "category": "Popkultur",
@@ -582,7 +583,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Vad skulle du döpa en egen planet till?"
+    "text": "Vilken färg skulle din egen planet ha?"
   },
   {
     "category": "Knasigt",
@@ -598,7 +599,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Vad vore allra konstigast att få stående ovationer för?"
+    "text": "Vilken hushållssyssla förtjänar minst applåder?"
   },
   {
     "category": "Knasigt",
@@ -614,11 +615,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det värsta att råka säga på en första dejt?"
+    "text": "Vilket namn vore värst att råka säga på en första dejt?"
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det sista du skulle vilja att IT-avdelningen såg i din sökhistorik?"
+    "text": "Vilken dejtingsajt vore pinsammast i jobbets webbhistorik?"
   },
   {
     "category": "Vuxet",
@@ -626,7 +627,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det vanligaste folk ljuger om på en dejtingprofil?"
+    "text": "Vilken kroppsdel överdriver folk mest på sin dejtingprofil?"
   },
   {
     "category": "Vuxet",
@@ -634,7 +635,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det pinsammaste som kan hända när man raggar?"
+    "text": "Vilket plagg vore pinsammast att ha bak och fram på en dejt?"
   },
   {
     "category": "Vuxet",
@@ -654,11 +655,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vilken är den mest trovärdiga ursäkten för att slippa dejt nummer två?"
+    "text": "Vilken veckodag är sämst för en andra dejt?"
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det mest pinsamma att råka skicka till fel person?"
+    "text": "Vilken emoji vore värst att skicka till chefen?"
   },
   {
     "category": "Vuxet",
@@ -666,11 +667,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det värsta man kan säga till sin svärmor?"
+    "text": "Vilket smeknamn vore värst att ge sin svärmor?"
   },
   {
     "category": "Vuxet",
-    "text": "Vad skulle du helst slippa berätta om för dina föräldrar?"
+    "text": "Vilken app vill du minst visa för dina föräldrar?"
   },
   {
     "category": "Vuxet",
@@ -690,11 +691,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är den sämsta öppningsrepliken på en dejtingapp?"
+    "text": "Vilken emoji är sämst som första meddelande på en dejtingapp?"
   },
   {
     "category": "Vuxet",
-    "text": "Vad överdriver folk mest på en första dejt?"
+    "text": "Vilken hobby överdriver folk oftast på en första dejt?"
   },
   {
     "category": "Vuxet",
@@ -702,7 +703,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det vanligaste man ångrar dagen efter en utekväll?"
+    "text": "Vilken drink ångrar flest dagen efter?"
   },
   {
     "category": "Vuxet",
@@ -718,7 +719,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det pinsammaste som kan hända vid hotellfrukosten?"
+    "text": "Vilken frukostmat vore pinsammast att tappa i knät?"
   },
   {
     "category": "Vuxet",
@@ -730,7 +731,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad är det mest pinsamma som kan hända på en jobbmiddag?"
+    "text": "Vilken maträtt är svårast att äta snyggt på en jobbmiddag?"
   },
   {
     "category": "Resor & upplevelser",
@@ -834,7 +835,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Vad är det värsta som kan hända på en guidad tur?"
+    "text": "Vilket föremål vill du minst tappa under en guidad tur?"
   },
   {
     "category": "Resor & upplevelser",
@@ -858,7 +859,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är det vanligaste någon säger när ett möte börjar?"
+  "text": "Vilken teknisk pryl strular oftast när mötet börjar?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -866,7 +867,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är den bästa ursäkten för att slippa ett möte?"
+  "text": "Vilken veckodag vill flest slippa möten?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -894,11 +895,11 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är det värsta någon kan säga fem minuter före hemgång?"
+  "text": "Vilket ord vill du minst höra fem minuter före hemgång?"
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilken fras borde förbjudas i mötesprotokoll?"
+  "text": "Vilket ord borde förbjudas i mötesprotokoll?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -910,7 +911,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är det pinsammaste som kan gå fel under en presentation?"
+  "text": "Vilken app vore pinsammast att råka visa under en presentation?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -942,15 +943,15 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är det vanligaste någon skriver i en Teams-chatt?"
+  "text": "Vilken emoji används mest i Teams?"
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilken typ av möte borde egentligen vara ett mejl?"
+  "text": "Vilken veckodag borde vara helt mötesfri?"
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är det mest klassiska att säga när någon delar skärm?"
+  "text": "Vilken knapp glömmer flest att trycka på i Teams?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -966,7 +967,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är den vanligaste frågan vid kaffemaskinen?"
+  "text": "Vilket samtalsämne är vanligast vid kaffemaskinen?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -982,7 +983,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är det vanligaste som sägs när en deadline närmar sig?"
+  "text": "Vilket ord hörs oftast när en deadline närmar sig?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -1002,7 +1003,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är den vanligaste kommentaren när en ritning granskas?"
+  "text": "Vilket mått är lättast att missa på en ritning?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -1010,7 +1011,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad skulle vara det mest pinsamma att råka säga när mikrofonen är på?"
+  "text": "Vilket svärord hörs oftast när mikrofonen är på?"
 },
   {
   "category": "Mat & dryck",
@@ -1026,7 +1027,7 @@ const questions = [
 },
   {
   "category": "Vardag",
-  "text": "Vad stör sig folk mest på i mataffären?"
+  "text": "Vilken person i mataffären stör flest sig på?"
 },
   {
   "category": "Vardag",
@@ -1038,7 +1039,7 @@ const questions = [
 },
   {
   "category": "Fest & socialt",
-  "text": "Vad är det mest överskattade med att gå på krogen?"
+  "text": "Vilken drink är mest överskattad?"
 },
   {
   "category": "Popkultur",
@@ -1062,7 +1063,7 @@ const questions = [
 },
   {
   "category": "Vuxet",
-  "text": "Vilken komplimang är egentligen en förolämpning?"
+  "text": "Vilket adjektiv är den sämsta komplimangen?"
 },
   {
   "category": "Resor & upplevelser",
@@ -1094,11 +1095,11 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är det mest överskattade med att jobba hemifrån?"
+  "text": "Vilket klädesplagg är mest överskattat vid hemarbete?"
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är det värsta svaret på frågan 'När är det klart?'"
+  "text": "Vilken månad vill du minst höra som nytt leveransdatum?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -1106,7 +1107,127 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vad är den vanligaste meningen precis innan ett projekt blir försenat?"
+  "text": "Vilket ord hörs oftast precis innan ett projekt blir försenat?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film har den mest igenkännbara musiken?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken filmskurk är mest skrämmande?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film har det bästa slutet?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är mest överskattad?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken skådespelare är mest förknippad med actionfilmer?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film får flest att gråta?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film skulle du helst se på bio igen?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är mest förknippad med jul?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film har den bästa biljaktsscenen?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken filmfigur skulle vara sämst som chef?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken filmfigur skulle du helst ha som granne?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är roligast att citera?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film skulle passa bäst som musikal?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken tecknad film är mest sorglig?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är bäst att se när man är sjuk?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film har det mest kända monstret?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är mest förknippad med dinosaurier?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken filmserie borde ha slutat tidigare?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken filmkaraktär har den coolaste bilen?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är mest förknippad med rymden?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken skådespelare skulle passa bäst som James Bond?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är den bästa uppföljaren?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är mest förknippad med pirater?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken filmfigur har den mest igenkännbara hatten?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är bäst för en regnig söndag?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är den bästa svenska komedin?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken filmfigur skulle vara värst att sitta bredvid på flyget?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är mest förknippad med en haj?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken skådespelare är roligast?"
+},
+  {
+  "category": "Film",
+  "text": "Vilken film är den bästa att se på en första dejt?"
 }
 ];
 
@@ -1188,7 +1309,7 @@ export default function App() {
           <span className="question-number">{count ? "Fråga " + count : "🐄"}</span>
         </div>
         <button type="button" className="next-button" onClick={nextQuestion}>🎲 Ny fråga</button>
-        <p className="hint">Frågorna kommer i slumpad ordning utan upprepning.</p>
+        <p className="hint">Svara med högst två ord, ett namn eller en siffra. Frågorna slumpas utan upprepning.</p>
       </section>
     </main>
   );
