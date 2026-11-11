@@ -897,6 +897,209 @@ const questions = [
     "category": "Film",
     "text": "Hur många timmar är lagom för en filmdejt?"
   }
+,
+  {
+    "category": "Mat & dryck",
+    "text": "Är ananas gott på pizza?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Mat & dryck",
+    "text": "Vad väljer du till frukost?",
+    "options": [
+      "Gröt",
+      "Smörgås",
+      "Yoghurt"
+    ]
+  },
+  {
+    "category": "Mat & dryck",
+    "text": "Är det okej att äta pizza med bestick?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Vardag",
+    "text": "Bäddar du sängen varje morgon?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Vardag",
+    "text": "Vad är värst att glömma hemma?",
+    "options": [
+      "Mobilen",
+      "Nycklarna",
+      "Plånboken"
+    ]
+  },
+  {
+    "category": "Vardag",
+    "text": "Ska man ta av sig skorna hemma hos andra?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Fest & socialt",
+    "text": "Är det okej att gå från en fest utan att säga hej då?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Fest & socialt",
+    "text": "Vad är viktigast på en lyckad fest?",
+    "options": [
+      "Musiken",
+      "Maten",
+      "Sällskapet"
+    ]
+  },
+  {
+    "category": "Fest & socialt",
+    "text": "Är karaoke roligare att sjunga än att lyssna på?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Popkultur",
+    "text": "Vad skulle du helst vinna?",
+    "options": [
+      "Melodifestivalen",
+      "På spåret",
+      "Robinson"
+    ]
+  },
+  {
+    "category": "Popkultur",
+    "text": "Är en bok oftast bättre än filmen?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Knasigt",
+    "text": "Skulle du vilja kunna prata med djur?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Knasigt",
+    "text": "Du måste slåss mot en av dessa. Vad väljer du?",
+    "options": [
+      "En gås",
+      "En kalkon",
+      "En svan"
+    ]
+  },
+  {
+    "category": "Knasigt",
+    "text": "Vilken superkraft väljer du?",
+    "options": [
+      "Flyga",
+      "Bli osynlig",
+      "Läsa tankar"
+    ]
+  },
+  {
+    "category": "Vuxet",
+    "text": "Är det okej att vara vän med sitt ex?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Vuxet",
+    "text": "Vad är värst på en första dejt?",
+    "options": [
+      "Tystnad",
+      "Mobilscrollande",
+      "Att komma sent"
+    ]
+  },
+  {
+    "category": "Vuxet",
+    "text": "Ska man dela notan på första dejten?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Resor & upplevelser",
+    "text": "Vad väljer du för en veckas semester?",
+    "options": [
+      "Storstad",
+      "Strand",
+      "Fjäll"
+    ]
+  },
+  {
+    "category": "Resor & upplevelser",
+    "text": "Är det värt att betala extra för fönsterplats på flyget?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Kontor & ingenjörsliv",
+    "text": "Ska kameran vara på under digitala möten?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Kontor & ingenjörsliv",
+    "text": "Vad väljer du på kontoret?",
+    "options": [
+      "Eget rum",
+      "Öppet landskap",
+      "Hemmakontor"
+    ]
+  },
+  {
+    "category": "Kontor & ingenjörsliv",
+    "text": "Borde arbetsveckan vara fyra dagar?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  },
+  {
+    "category": "Film",
+    "text": "Vad väljer du på bio?",
+    "options": [
+      "Komedi",
+      "Action",
+      "Skräck"
+    ]
+  },
+  {
+    "category": "Film",
+    "text": "Är det okej att prata under en film hemma hos någon?",
+    "options": [
+      "Ja",
+      "Nej"
+    ]
+  }
 ];
 
 function shuffle(items) {
@@ -973,11 +1176,11 @@ export default function App() {
       <section className="game" aria-live="polite">
         <div className="question-card">
           <span className="question-label">{current ? current.category : "REDO ATT SPELA?"}</span>
-          <div className="question-text">{current ? current.text : "Tryck på knappen för att dra en fråga!"}</div>
+          <div className="question-content"><div className="question-text">{current ? current.text : "Tryck på knappen för att dra en fråga!"}</div>{current?.options && <div className="answer-options" aria-label="Svarsalternativ">{current.options.map(option => <span className="answer-option" key={option}>{option}</span>)}</div>}</div>
           <span className="question-number">{count ? "Fråga " + count : "🐄"}</span>
         </div>
         <button type="button" className="next-button" onClick={nextQuestion}>🎲 Ny fråga</button>
-        <p className="hint">Svara med högst två ord, ett namn eller en siffra. Frågorna slumpas utan upprepning.</p>
+        <p className="hint">Svara kort eller välj ett av alternativen. Frågorna slumpas utan upprepning.</p>
       </section>
     </main>
   );
