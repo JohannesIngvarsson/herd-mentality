@@ -203,7 +203,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vilken trafikorsak skyller folk oftast sin försening på?"
+    "text": "Vilket färdmedel blir man oftast sen med?"
   },
   {
     "category": "Vardag",
@@ -283,7 +283,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vilket djur skulle vara den bästa ursäkten för att lämna en fest?"
+    "text": "Vilken tid är bäst att lämna en fest?"
   },
   {
     "category": "Fest & socialt",
@@ -323,7 +323,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vilken kroppsdel avslöjar först att någon är full?"
+    "text": "Vilken dryck förknippar flest med förfest?"
   },
   {
     "category": "Fest & socialt",
@@ -343,7 +343,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vilken sjukdom skyller folk oftast på för att slippa en fest?"
+    "text": "Vilken veckodag är sämst för en fest?"
   },
   {
     "category": "Fest & socialt",
@@ -435,7 +435,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Vilken artist har flest låtar man bara kan refrängen till?"
+    "text": "Vilken artist är mest självklar på karaoke?"
   },
   {
     "category": "Popkultur",
@@ -491,7 +491,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Vilken film skulle bli sämst om djuret försvann?"
+    "text": "Vilken film har den mest kända hunden?"
   },
   {
     "category": "Knasigt",
@@ -615,11 +615,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vilket namn vore värst att råka säga på en första dejt?"
+    "text": "Vilken maträtt är sämst på en första dejt?"
   },
   {
     "category": "Vuxet",
-    "text": "Vilken dejtingsajt vore pinsammast i jobbets webbhistorik?"
+    "text": "Vilken dejtingapp är mest känd?"
   },
   {
     "category": "Vuxet",
@@ -667,11 +667,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vilket smeknamn vore värst att ge sin svärmor?"
+    "text": "Vilken högtid är mest stressig med släkten?"
   },
   {
     "category": "Vuxet",
-    "text": "Vilken app vill du minst visa för dina föräldrar?"
+    "text": "Vilken app använder flest på toaletten?"
   },
   {
     "category": "Vuxet",
@@ -691,11 +691,11 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vilken emoji är sämst som första meddelande på en dejtingapp?"
+    "text": "Vilken emoji förknippar flest med flirt?"
   },
   {
     "category": "Vuxet",
-    "text": "Vilken hobby överdriver folk oftast på en första dejt?"
+    "text": "Vilken hobby är mest attraktiv?"
   },
   {
     "category": "Vuxet",
@@ -703,7 +703,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vilken drink ångrar flest dagen efter?"
+    "text": "Vilken dryck ger värst baksmälla?"
   },
   {
     "category": "Vuxet",
@@ -719,7 +719,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vilken frukostmat vore pinsammast att tappa i knät?"
+    "text": "Vilken frukostmat är mest överskattad?"
   },
   {
     "category": "Vuxet",
@@ -859,7 +859,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilken teknisk pryl strular oftast när mötet börjar?"
+  "text": "Vilken pryl krånglar oftast i ett mötesrum?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -895,11 +895,11 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilket ord vill du minst höra fem minuter före hemgång?"
+  "text": "Vilken veckodag går folk hem tidigast?"
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilket ord borde förbjudas i mötesprotokoll?"
+  "text": "Vilken veckodag har flest möten?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -911,7 +911,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilken app vore pinsammast att råka visa under en presentation?"
+  "text": "Vilken pryl krånglar oftast under en presentation?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -983,7 +983,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilket ord hörs oftast när en deadline närmar sig?"
+  "text": "Vilken kontorspryl är viktigast vid en deadline?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -1011,7 +1011,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilket svärord hörs oftast när mikrofonen är på?"
+  "text": "Vilken knapp glömmer flest att trycka på i Teams?"
 },
   {
   "category": "Mat & dryck",
@@ -1027,7 +1027,7 @@ const questions = [
 },
   {
   "category": "Vardag",
-  "text": "Vilken person i mataffären stör flest sig på?"
+  "text": "Vilken avdelning i mataffären är jobbigast att handla på?"
 },
   {
   "category": "Vardag",
@@ -1047,7 +1047,7 @@ const questions = [
 },
   {
   "category": "Popkultur",
-  "text": "Vilken film är bättre än folk vågar erkänna?"
+  "text": "Vilken film är mest överskattad?"
 },
   {
   "category": "Knasigt",
@@ -1063,7 +1063,7 @@ const questions = [
 },
   {
   "category": "Vuxet",
-  "text": "Vilket adjektiv är den sämsta komplimangen?"
+  "text": "Vilken egenskap är viktigast hos en partner?"
 },
   {
   "category": "Resor & upplevelser",
@@ -1095,11 +1095,11 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilket klädesplagg är mest överskattat vid hemarbete?"
+  "text": "Vilket klädesplagg förknippar flest med hemarbete?"
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilken månad vill du minst höra som nytt leveransdatum?"
+  "text": "Vilken månad är svårast att få saker gjorda på jobbet?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -1107,7 +1107,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Vilket ord hörs oftast precis innan ett projekt blir försenat?"
+  "text": "Vilken veckodag är sämst för en deadline?"
 },
   {
   "category": "Film",
