@@ -18,7 +18,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn en maträtt som nästan alla kan laga."
+    "text": "Vilken maträtt kan precis alla laga – men ingen riktigt bra?"
   },
   {
     "category": "Mat & dryck",
@@ -30,7 +30,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn något som passar att doppa i kaffe."
+    "text": "Vad är godast att doppa i kaffet?"
   },
   {
     "category": "Mat & dryck",
@@ -46,7 +46,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn något man alltid hittar på ett frukostbuffébord."
+    "text": "Vad är det första du går på vid hotellfrukosten?"
   },
   {
     "category": "Mat & dryck",
@@ -58,7 +58,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn en matvara som luktar värre än den smakar."
+    "text": "Vilken mat luktar värst i förhållande till hur gott den smakar?"
   },
   {
     "category": "Mat & dryck",
@@ -70,7 +70,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn ett godis som ofta blir kvar sist i skålen."
+    "text": "Vilket godis ligger alltid kvar sist i skålen?"
   },
   {
     "category": "Mat & dryck",
@@ -82,7 +82,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn en dryck som smakar bäst iskall."
+    "text": "Vilken dryck är helt värdelös om den inte är iskall?"
   },
   {
     "category": "Mat & dryck",
@@ -94,7 +94,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn en sak man kan bränna vid matlagning."
+    "text": "Vad är lättast att råka bränna vid matlagning?"
   },
   {
     "category": "Mat & dryck",
@@ -106,7 +106,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn en efterrätt som brukar serveras på restaurang."
+    "text": "Vilken är den näst godaste efterrätten?"
   },
   {
     "category": "Mat & dryck",
@@ -118,7 +118,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn något man har ketchup på."
+    "text": "Vilken maträtt behöver egentligen mest ketchup?"
   },
   {
     "category": "Mat & dryck",
@@ -130,11 +130,11 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Nämn en ingrediens som förstör en smörgås."
+    "text": "Vad är det värsta någon kan lägga på din smörgås?"
   },
   {
     "category": "Vardag",
-    "text": "Nämn en sak som nästan alltid ligger i en hall."
+    "text": "Vad är den mest typiska saken att snubbla över i hallen?"
   },
   {
     "category": "Vardag",
@@ -150,7 +150,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Nämn något man hittar längst in i en kökslåda."
+    "text": "Vad gömmer sig längst in i allas kökslådor?"
   },
   {
     "category": "Vardag",
@@ -162,7 +162,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Nämn en sak som brukar försvinna i tvätten."
+    "text": "Vad försvinner mystiskt i tvättmaskinen?"
   },
   {
     "category": "Vardag",
@@ -174,7 +174,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Nämn något som alltid finns i ett hotellrum."
+    "text": "Vad är det mest självklara föremålet i ett hotellrum?"
   },
   {
     "category": "Vardag",
@@ -190,7 +190,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Nämn ett ljud som kan väcka dig mitt i natten."
+    "text": "Vilket ljud är det värsta att vakna av?"
   },
   {
     "category": "Vardag",
@@ -202,7 +202,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Nämn en ursäkt för att komma för sent."
+    "text": "Vilken är den mest genomskinliga ursäkten för att komma sent?"
   },
   {
     "category": "Vardag",
@@ -214,7 +214,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Nämn en sak som alltid finns i ett badrum."
+    "text": "Vad vore konstigast att sakna i ett badrum?"
   },
   {
     "category": "Vardag",
@@ -230,7 +230,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Nämn något man köper och sedan nästan aldrig använder."
+    "text": "Vilket köp är mest onödigt efter en månad?"
   },
   {
     "category": "Vardag",
@@ -242,7 +242,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Nämn något man alltid skjuter upp till söndag."
+    "text": "Vad skjuter folk oftast upp till söndag kväll?"
   },
   {
     "category": "Vardag",
@@ -254,7 +254,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn något som alltid tar slut på en fest."
+    "text": "Vad tar alltid slut först på festen?"
   },
   {
     "category": "Fest & socialt",
@@ -270,7 +270,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn en sak som folk brukar glömma på en förfest."
+    "text": "Vad glömmer folk oftast att ta med till förfesten?"
   },
   {
     "category": "Fest & socialt",
@@ -282,7 +282,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn en ursäkt för att lämna festen tidigt."
+    "text": "Vilken ursäkt för att lämna festen är svårast att genomskåda?"
   },
   {
     "category": "Fest & socialt",
@@ -294,7 +294,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn en sak som kan förstöra en middag med vänner."
+    "text": "Vad förstör stämningen snabbast på en middag?"
   },
   {
     "category": "Fest & socialt",
@@ -306,7 +306,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn något man kan hitta på golvet efter en fest."
+    "text": "Vad är det konstigaste man kan hitta på golvet efter en fest?"
   },
   {
     "category": "Fest & socialt",
@@ -322,7 +322,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn en sak folk gör när de börjar bli fulla."
+    "text": "Vad är det första tecknet på att någon blivit för full?"
   },
   {
     "category": "Fest & socialt",
@@ -334,7 +334,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn ett spel som passar på en förfest."
+    "text": "Vilket spel borde alla förfester ha?"
   },
   {
     "category": "Fest & socialt",
@@ -346,7 +346,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn en sak som kan gå sönder på en hemmafest."
+    "text": "Vad går sönder först på en hemmafest?"
   },
   {
     "category": "Fest & socialt",
@@ -358,7 +358,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Nämn något som nästan alltid finns på ett kräftskivebord."
+    "text": "Vad är den näst viktigaste saken på ett kräftskivebord?"
   },
   {
     "category": "Fest & socialt",
@@ -374,7 +374,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en filmfigur som nästan alla känner igen."
+    "text": "Vilken filmfigur skulle flest känna igen bara på siluetten?"
   },
   {
     "category": "Popkultur",
@@ -382,7 +382,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en svensk artist som alla kan minst en låt av."
+    "text": "Vilken svensk artist kan precis alla sjunga med till?"
   },
   {
     "category": "Popkultur",
@@ -394,7 +394,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en tv-serie som folk gärna ser om."
+    "text": "Vilken tv-serie tål flest att se en gång till?"
   },
   {
     "category": "Popkultur",
@@ -402,7 +402,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn ett spel som nästan alla har provat."
+    "text": "Vilket tv-spel har nästan alla testat?"
   },
   {
     "category": "Popkultur",
@@ -414,7 +414,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en låt som ofta spelas på bröllop."
+    "text": "Vilken låt är omöjlig att undvika på ett bröllop?"
   },
   {
     "category": "Popkultur",
@@ -426,7 +426,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en skådespelare som ofta spelar skurk."
+    "text": "Vem är filmvärldens mest självklara skurk?"
   },
   {
     "category": "Popkultur",
@@ -434,7 +434,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en låt som alla kan refrängen till."
+    "text": "Vilken låt kan alla refrängen till men ingen verserna?"
   },
   {
     "category": "Popkultur",
@@ -446,7 +446,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en fiktiv hund från film eller tv."
+    "text": "Vilken filmhund är mest känd?"
   },
   {
     "category": "Popkultur",
@@ -458,7 +458,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en film som innehåller en berömd bil."
+    "text": "Vilken filmbil skulle du helst äga?"
   },
   {
     "category": "Popkultur",
@@ -470,7 +470,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en känd person med ett artistnamn."
+    "text": "Vilken artist är mer känd under sitt artistnamn?"
   },
   {
     "category": "Popkultur",
@@ -482,7 +482,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn ett spel som passar att spela med familjen."
+    "text": "Vilket spel leder snabbast till familjebråk?"
   },
   {
     "category": "Popkultur",
@@ -490,7 +490,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Nämn en film där ett djur har en viktig roll."
+    "text": "Vilken film skulle bli sämst om djuret försvann?"
   },
   {
     "category": "Knasigt",
@@ -498,7 +498,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn något man inte vill hitta i sin säng."
+    "text": "Vad vore värst att hitta under täcket?"
   },
   {
     "category": "Knasigt",
@@ -510,7 +510,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn en sak som vore märklig att ha i kylskåpet."
+    "text": "Vad vore konstigast att ha i kylskåpet?"
   },
   {
     "category": "Knasigt",
@@ -526,7 +526,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn något som aldrig borde vara gjort av glas."
+    "text": "Vilken sak borde absolut inte tillverkas i glas?"
   },
   {
     "category": "Knasigt",
@@ -538,7 +538,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn ett djur som skulle se roligt ut i kostym."
+    "text": "Vilket djur skulle passa bäst i kostym?"
   },
   {
     "category": "Knasigt",
@@ -550,7 +550,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn något som vore pinsamt att få levererat till jobbet."
+    "text": "Vad vore pinsammast att få levererat till jobbet?"
   },
   {
     "category": "Knasigt",
@@ -562,7 +562,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn en sak som skulle göra en hissresa obehaglig."
+    "text": "Vad är det värsta som kan hända när hissen stannar?"
   },
   {
     "category": "Knasigt",
@@ -574,7 +574,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn något man absolut inte vill hitta i sin sko."
+    "text": "Vad vill du allra minst känna när du stoppar foten i skon?"
   },
   {
     "category": "Knasigt",
@@ -586,7 +586,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn en sak som aldrig borde ha en touchskärm."
+    "text": "Vilken pryl skulle bli sämre med en touchskärm?"
   },
   {
     "category": "Knasigt",
@@ -598,7 +598,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn något som vore väldigt konstigt att applådera åt."
+    "text": "Vad vore allra konstigast att få stående ovationer för?"
   },
   {
     "category": "Knasigt",
@@ -610,7 +610,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Nämn en sak som skulle vara rolig att ha som bilhorn."
+    "text": "Vilket ljud skulle vara roligast som bilhorn?"
   },
   {
     "category": "Vuxet",
@@ -618,7 +618,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn en sak man inte bör googla på jobbets dator."
+    "text": "Vad är det sista du skulle vilja att IT-avdelningen såg i din sökhistorik?"
   },
   {
     "category": "Vuxet",
@@ -630,7 +630,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn en sak som kan förstöra en romantisk middag."
+    "text": "Vad kan förstöra en romantisk middag på tre sekunder?"
   },
   {
     "category": "Vuxet",
@@ -642,7 +642,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn en plats där det vore särskilt pinsamt att bli påkommen med att hångla."
+    "text": "Var vore det pinsammast att bli påkommen med att hångla?"
   },
   {
     "category": "Vuxet",
@@ -654,7 +654,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn en ursäkt för att slippa en andra dejt."
+    "text": "Vilken är den mest trovärdiga ursäkten för att slippa dejt nummer två?"
   },
   {
     "category": "Vuxet",
@@ -666,7 +666,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn något man aldrig ska säga till sin svärmor."
+    "text": "Vad är det värsta man kan säga till sin svärmor?"
   },
   {
     "category": "Vuxet",
@@ -682,7 +682,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn en sak som kan avslöja att någon varit på efterfest."
+    "text": "Vad avslöjar tydligast att någon varit på efterfest?"
   },
   {
     "category": "Vuxet",
@@ -694,7 +694,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn något folk ofta överdriver på en dejt."
+    "text": "Vad överdriver folk mest på en första dejt?"
   },
   {
     "category": "Vuxet",
@@ -706,7 +706,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn en sak som absolut inte hör hemma i en säng."
+    "text": "Vad vore mest avtändande att hitta i någons säng?"
   },
   {
     "category": "Vuxet",
@@ -718,7 +718,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Nämn en sak som kan göra en hotellfrukost riktigt pinsam."
+    "text": "Vad är det pinsammaste som kan hända vid hotellfrukosten?"
   },
   {
     "category": "Vuxet",
@@ -734,7 +734,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn en sak man alltid köper på en flygplats."
+    "text": "Vad är det mest onödiga man ändå köper på flygplatsen?"
   },
   {
     "category": "Resor & upplevelser",
@@ -746,7 +746,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn något som alltid finns på ett hotellrum."
+    "text": "Vad skulle du bli mest förvånad över att INTE hitta på hotellrummet?"
   },
   {
     "category": "Resor & upplevelser",
@@ -758,7 +758,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn en souvenir som ofta samlar damm."
+    "text": "Vilken souvenir ångrar folk snabbast att de köpt?"
   },
   {
     "category": "Resor & upplevelser",
@@ -770,7 +770,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn en sak som kan förstöra en campingsemester."
+    "text": "Vad förstör en campingsemester snabbast?"
   },
   {
     "category": "Resor & upplevelser",
@@ -782,7 +782,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn en sak folk fotograferar på semestern."
+    "text": "Vad fotograferar folk mest på semestern?"
   },
   {
     "category": "Resor & upplevelser",
@@ -794,7 +794,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn en sak man köper i taxfreebutiken."
+    "text": "Vad är det mest förutsägbara köpet i taxfreebutiken?"
   },
   {
     "category": "Resor & upplevelser",
@@ -806,7 +806,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn något som ofta finns på en turistkarta."
+    "text": "Vilken symbol letar alla efter på en turistkarta?"
   },
   {
     "category": "Resor & upplevelser",
@@ -818,7 +818,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn något man kan tappa bort på ett hotell."
+    "text": "Vad vore värst att tappa bort på ett hotell?"
   },
   {
     "category": "Resor & upplevelser",
@@ -830,7 +830,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn något som alltid finns på en campingplats."
+    "text": "Vad är det sista du vill sakna på en campingplats?"
   },
   {
     "category": "Resor & upplevelser",
@@ -842,7 +842,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Nämn en sak man ofta glömmer att packa ner."
+    "text": "Vad glömmer man alltid att packa – trots att man borde veta bättre?"
   },
   {
     "category": "Resor & upplevelser",
@@ -854,7 +854,7 @@ const questions = [
   },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn en sak som alltid finns på ett kontorsskrivbord."
+  "text": "Vad är det mest onödiga som ligger på ett kontorsskrivbord?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -870,7 +870,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn något som brukar krångla i ett konferensrum."
+  "text": "Vad är det första som krånglar när chefen ska presentera?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -886,7 +886,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn något man kan hitta i en bortglömd skrivbordslåda."
+  "text": "Vad vore konstigast att hitta i en kollegas skrivbordslåda?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -898,7 +898,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn en sak som nästan alltid står i ett mötesprotokoll."
+  "text": "Vilken fras borde förbjudas i mötesprotokoll?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -910,7 +910,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn något som kan gå fel under en presentation."
+  "text": "Vad är det pinsammaste som kan gå fel under en presentation?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -926,7 +926,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn en sak som man absolut inte vill spilla kaffe på."
+  "text": "Vad är det absolut värsta att spilla kaffe på?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -938,7 +938,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn något som en kollega kan låna och aldrig lämna tillbaka."
+  "text": "Vad lånar kollegor och lämnar aldrig tillbaka?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -954,7 +954,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn något som brukar finnas på ett passerkort."
+  "text": "Vad vore märkligast att ha tryckt på sitt passerkort?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -974,7 +974,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn något man hittar på en ingenjörs arbetsplats."
+  "text": "Vad är den mest typiska prylen på en ingenjörs skrivbord?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -986,7 +986,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn något som ofta ändras i sista minuten i ett projekt."
+  "text": "Vad ändras alltid fem minuter före en deadline?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -998,7 +998,7 @@ const questions = [
 },
   {
   "category": "Kontor & ingenjörsliv",
-  "text": "Nämn en sak som brukar stå på en whiteboard i ett projektkontor."
+  "text": "Vad är det mest obegripliga man kan hitta på en projekt-whiteboard?"
 },
   {
   "category": "Kontor & ingenjörsliv",
@@ -1011,6 +1011,102 @@ const questions = [
   {
   "category": "Kontor & ingenjörsliv",
   "text": "Vad skulle vara det mest pinsamma att råka säga när mikrofonen är på?"
+},
+  {
+  "category": "Mat & dryck",
+  "text": "Vilken är världens näst godaste pizza?"
+},
+  {
+  "category": "Mat & dryck",
+  "text": "Vilken maträtt är mest överskattad?"
+},
+  {
+  "category": "Mat & dryck",
+  "text": "Vad borde ingen människa behöva äta på en första dejt?"
+},
+  {
+  "category": "Vardag",
+  "text": "Vad stör sig folk mest på i mataffären?"
+},
+  {
+  "category": "Vardag",
+  "text": "Vilken vardagssyssla känns mest som ett straff?"
+},
+  {
+  "category": "Fest & socialt",
+  "text": "Vilken typ av person är jobbigast på en förfest?"
+},
+  {
+  "category": "Fest & socialt",
+  "text": "Vad är det mest överskattade med att gå på krogen?"
+},
+  {
+  "category": "Popkultur",
+  "text": "Vilken kändis är mest överskattad?"
+},
+  {
+  "category": "Popkultur",
+  "text": "Vilken film är bättre än folk vågar erkänna?"
+},
+  {
+  "category": "Knasigt",
+  "text": "Vad skulle vara det näst sämsta husdjuret?"
+},
+  {
+  "category": "Knasigt",
+  "text": "Vilken superkraft låter bra men vore mest opraktisk?"
+},
+  {
+  "category": "Vuxet",
+  "text": "Vad stör sig folk mest på hos någon de dejtar?"
+},
+  {
+  "category": "Vuxet",
+  "text": "Vilken komplimang är egentligen en förolämpning?"
+},
+  {
+  "category": "Resor & upplevelser",
+  "text": "Vilket turistmål är mest överskattat?"
+},
+  {
+  "category": "Resor & upplevelser",
+  "text": "Vad är det näst värsta som kan hända på ett flygplan?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad stör sig folk mest på hos sina kollegor?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilket möte borde ha varit ett mejl?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken kontorsfras borde förbjudas för alltid?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är den näst värsta tiden att få ett möte inbokat?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken liten kontorsvana gör folk orimligt irriterade?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det mest överskattade med att jobba hemifrån?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det värsta svaret på frågan 'När är det klart?'"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken detalj på en ritning upptäcker man alltid för sent?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är den vanligaste meningen precis innan ett projekt blir försenat?"
 }
 ];
 
