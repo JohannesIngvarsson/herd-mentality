@@ -8,7 +8,8 @@ const categories = [
   "Popkultur",
   "Knasigt",
   "Vuxet",
-  "Resor & upplevelser"
+  "Resor & upplevelser",
+  "Kontor & ingenjörsliv"
 ];
 const questions = [
   {
@@ -850,7 +851,167 @@ const questions = [
   {
     "category": "Resor & upplevelser",
     "text": "Vad skulle du helst vilja ha gratis på ett hotell?"
-  }
+  },
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn en sak som alltid finns på ett kontorsskrivbord."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det vanligaste någon säger när ett möte börjar?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilket ord hör man oftast i ett projektmöte?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är den bästa ursäkten för att slippa ett möte?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn något som brukar krångla i ett konferensrum."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det första folk gör när datorn inte fungerar?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken sak försvinner oftast från kontorets kök?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är den mest klassiska fikabrödsbiten på jobbet?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn något man kan hitta i en bortglömd skrivbordslåda."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken veckodag är det svårast att boka möten?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det värsta någon kan säga fem minuter före hemgång?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn en sak som nästan alltid står i ett mötesprotokoll."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken kontorspryl låter mest irriterande?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det vanligaste man glömmer inför ett digitalt möte?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn något som kan gå fel under en presentation."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är den vanligaste anledningen till att ett möte drar över tiden?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken förkortning hör man oftast på jobbet?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det första folk gör när fredagsfikat ställs fram?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn en sak som man absolut inte vill spilla kaffe på."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det mest irriterande med ett öppet kontorslandskap?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken sak skulle du helst automatisera på jobbet?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn något som en kollega kan låna och aldrig lämna tillbaka."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det vanligaste någon skriver i en Teams-chatt?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken typ av möte borde egentligen vara ett mejl?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det mest klassiska att säga när någon delar skärm?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn något som brukar finnas på ett passerkort."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad skulle vara det värsta att råka visa när du delar skärm?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken sak gör man oftast medan man väntar på att ett möte ska börja?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är den vanligaste frågan vid kaffemaskinen?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det mest irriterande att upptäcka när man ska skriva ut något?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn något man hittar på en ingenjörs arbetsplats."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilket verktyg på datorn skulle vara jobbigast att vara utan på jobbet?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det vanligaste som sägs när en deadline närmar sig?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn något som ofta ändras i sista minuten i ett projekt."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken sak tar längst tid att få godkänd på ett stort företag?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är det första en ingenjör gör när något inte passar?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Nämn en sak som brukar stå på en whiteboard i ett projektkontor."
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad är den vanligaste kommentaren när en ritning granskas?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vilken sak får flest ingenjörer att sucka?"
+},
+  {
+  "category": "Kontor & ingenjörsliv",
+  "text": "Vad skulle vara det mest pinsamma att råka säga när mikrofonen är på?"
+}
 ];
 
 function shuffle(items) {
@@ -898,8 +1059,8 @@ export default function App() {
   return (
     <main className="app-shell">
       <header className="app-header">
-        <div className="eyebrow">MARTINS KRÄFTSKIVA</div>
-        <h1>🐄 Herd Mentality</h1>
+        
+        <h1>🐄 Herd Mentality Mobil</h1>
         <p>Tänk som flocken – inte som dig själv.</p>
       </header>
 
