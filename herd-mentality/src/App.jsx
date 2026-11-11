@@ -47,11 +47,11 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Surströmming är en kandidat – vilken mat luktar annars värst?"
+    "text": "Hur många dagar i rad skulle du kunna äta samma middag?"
   },
   {
     "category": "Mat & dryck",
-    "text": "Vad är den mest självklara ingrediensen i en tacos?"
+    "text": "Hur många köttbullar är en lagom portion?"
   },
   {
     "category": "Mat & dryck",
@@ -79,11 +79,11 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Vad köper du om du bara får välja en sak i en godisbutik?"
+    "text": "Hur mycket skulle du betala för en riktigt bra hamburgare, i kronor?"
   },
   {
     "category": "Mat & dryck",
-    "text": "Favoritglassen är slut. Vad väljer du?"
+    "text": "Hur många pizzabitar är lagom att äta?"
   },
   {
     "category": "Mat & dryck",
@@ -95,7 +95,7 @@ const questions = [
   },
   {
     "category": "Mat & dryck",
-    "text": "Vilken maträtt behöver egentligen mest ketchup?"
+    "text": "Hur många koppar kaffe är för många på en dag?"
   },
   {
     "category": "Mat & dryck",
@@ -111,7 +111,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vilken hushållssyssla är lättast att skjuta upp?"
+    "text": "Hur ofta borde man egentligen dammsuga hemma, per vecka?"
   },
   {
     "category": "Vardag",
@@ -119,7 +119,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Årets längsta veckodag?"
+    "text": "När på dagen är det svårast att hålla sig vaken?"
   },
   {
     "category": "Vardag",
@@ -143,7 +143,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vilken möbel är jobbigast att flytta?"
+    "text": "Hur många kuddar ska man ha i en säng?"
   },
   {
     "category": "Vardag",
@@ -163,7 +163,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Årets längsta månad?"
+    "text": "Hur många alarm behöver man på morgonen?"
   },
   {
     "category": "Vardag",
@@ -171,7 +171,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vilken vara glömmer man oftast att köpa?"
+    "text": "Var hemma lägger folk oftast sina nycklar?"
   },
   {
     "category": "Vardag",
@@ -187,7 +187,7 @@ const questions = [
   },
   {
     "category": "Vardag",
-    "text": "Vilken möbel är värst att få vattenskadad?"
+    "text": "Hur många minuter är rimligt att duscha?"
   },
   {
     "category": "Fest & socialt",
@@ -215,7 +215,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vilket klockslag är bäst att lämna en fest?"
+    "text": "När borde en hemmafest senast sluta?"
   },
   {
     "category": "Fest & socialt",
@@ -223,11 +223,11 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vilket ämne leder oftast till diskussion vid middagsbordet?"
+    "text": "Hur många personer är lagom på en middag hemma?"
   },
   {
     "category": "Fest & socialt",
-    "text": "Vad skulle du helst slippa på ett bröllop?"
+    "text": "Var på ett bröllop vill du helst sitta?"
   },
   {
     "category": "Fest & socialt",
@@ -243,7 +243,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vilket ord ropar någon alltid under ett gruppfoto?"
+    "text": "Hur många försök behövs för ett lyckat gruppfoto?"
   },
   {
     "category": "Fest & socialt",
@@ -251,7 +251,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vilken maträtt är mest opraktisk att servera på mingel?"
+    "text": "Hur sent är det okej att dyka upp till en fest?"
   },
   {
     "category": "Fest & socialt",
@@ -263,7 +263,7 @@ const questions = [
   },
   {
     "category": "Fest & socialt",
-    "text": "Vad är den näst viktigaste saken på ett kräftskivebord?"
+    "text": "Hur många snapsvisor är lagom på en kräftskiva?"
   },
   {
     "category": "Fest & socialt",
@@ -291,7 +291,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Vilken tv-serie tål flest att se en gång till?"
+    "text": "Hur många avsnitt i rad räknas som en tv-maraton?"
   },
   {
     "category": "Popkultur",
@@ -299,7 +299,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Vilket tv-spel har nästan alla testat?"
+    "text": "Hur många timmar i sträck är för mycket tv-spel?"
   },
   {
     "category": "Popkultur",
@@ -319,7 +319,7 @@ const questions = [
   },
   {
     "category": "Popkultur",
-    "text": "Vilket tv-program skulle du vilja tävla i?"
+    "text": "Hur många minuter får ett tv-program vara innan det känns för långt?"
   },
   {
     "category": "Popkultur",
@@ -367,7 +367,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Vilket djur skulle vara den sämsta rumskamraten?"
+    "text": "Hur många katter är för många att ha hemma?"
   },
   {
     "category": "Knasigt",
@@ -379,7 +379,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Vad vore konstigast att ha i kylskåpet?"
+    "text": "Var skulle du gömma dig om en zombie kom in i huset?"
   },
   {
     "category": "Knasigt",
@@ -403,7 +403,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Vad vore den värsta smaken på tandkräm?"
+    "text": "Hur många gånger om dagen borde man borsta tänderna?"
   },
   {
     "category": "Knasigt",
@@ -411,7 +411,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Vad är det konstigaste man kan ha som hatt?"
+    "text": "Var skulle du helst gömma en skatt?"
   },
   {
     "category": "Knasigt",
@@ -439,7 +439,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Vad skulle vara det mest onödiga att ta med till månen?"
+    "text": "Hur många personer borde få följa med på första resan till Mars?"
   },
   {
     "category": "Knasigt",
@@ -447,7 +447,7 @@ const questions = [
   },
   {
     "category": "Knasigt",
-    "text": "Vad skulle du helst vilja att en robot gjorde hemma?"
+    "text": "Hur många robotar skulle du vilja ha hemma?"
   },
   {
     "category": "Vuxet",
@@ -467,7 +467,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Var vore det pinsammast att bli påkommen med att hångla?"
+    "text": "Var är det värst att springa på sitt ex?"
   },
   {
     "category": "Vuxet",
@@ -479,7 +479,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vilken veckodag är sämst för en andra dejt?"
+    "text": "Hur länge borde en första dejt vara, i timmar?"
   },
   {
     "category": "Vuxet",
@@ -491,7 +491,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vilken högtid är mest stressig med släkten?"
+    "text": "När är det för tidigt att börja julpynta?"
   },
   {
     "category": "Vuxet",
@@ -531,7 +531,7 @@ const questions = [
   },
   {
     "category": "Vuxet",
-    "text": "Vad skulle vara det sämsta samtalsämnet på en första dejt?"
+    "text": "Hur många dejter ska man gå på innan man blir ett par?"
   },
   {
     "category": "Vuxet",
@@ -547,7 +547,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Vilket land förknippar du mest med semester?"
+    "text": "Hur många dagar är en perfekt semesterresa?"
   },
   {
     "category": "Resor & upplevelser",
@@ -559,7 +559,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Souveniren man ångrar redan på flyget hem?"
+    "text": "Hur många timmar före flyget borde man vara på flygplatsen?"
   },
   {
     "category": "Resor & upplevelser",
@@ -579,7 +579,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Vilket land förknippar du med tropiska stränder?"
+    "text": "Var i världen skulle du helst fira nyår?"
   },
   {
     "category": "Resor & upplevelser",
@@ -591,7 +591,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Vad är det jobbigaste med att åka nattåg?"
+    "text": "Hur många timmar på ett tåg är för många?"
   },
   {
     "category": "Resor & upplevelser",
@@ -607,7 +607,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Vilket land förknippar du med stora berg?"
+    "text": "Var skulle du helst ha en sommarstuga?"
   },
   {
     "category": "Resor & upplevelser",
@@ -623,7 +623,7 @@ const questions = [
   },
   {
     "category": "Resor & upplevelser",
-    "text": "Vilket land förknippar du med exotiska djur?"
+    "text": "Hur många länder borde man ha besökt före 40?"
   },
   {
     "category": "Resor & upplevelser",
@@ -639,7 +639,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Du får avskaffa möten en dag i veckan. Vilken?"
+    "text": "Hur många minuter borde ett vanligt jobbmöte vara?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -655,7 +655,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vilken veckodag är det svårast att boka möten?"
+    "text": "När på dagen är det sämst att boka ett möte?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -663,7 +663,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vilken kontorspryl låter mest irriterande?"
+    "text": "Hur många koppar kaffe dricker en genomsnittlig kontorsanställd per dag?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -671,7 +671,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vad är den vanligaste anledningen till att ett möte drar över tiden?"
+    "text": "Hur många personer är för många i ett projektmöte?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -695,7 +695,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Du får stryka alla möten en dag i veckan. Vilken?"
+    "text": "Hur många möten per dag är för många?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -715,11 +715,11 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vad tar orimligt lång tid att beställa på kontoret?"
+    "text": "Hur lång tid är rimligt att vänta på en ny jobbdator, i dagar?"
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vilket mått är lättast att missa på en ritning?"
+    "text": "Hur många versioner av en ritning är för många?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -775,7 +775,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vad är den näst värsta tiden att få ett möte inbokat?"
+    "text": "När på fredagen borde det vara förbjudet att boka möten?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -783,7 +783,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vilket klädesplagg förknippar flest med hemarbete?"
+    "text": "Hur många dagar i veckan är lagom att jobba hemifrån?"
   },
   {
     "category": "Kontor & ingenjörsliv",
@@ -791,7 +791,7 @@ const questions = [
   },
   {
     "category": "Kontor & ingenjörsliv",
-    "text": "Vilken veckodag är sämst för en deadline?"
+    "text": "Hur många minuter före deadline bör man vara klar?"
   },
   {
     "category": "Film",
@@ -799,11 +799,11 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Vilken filmskurk är mest skrämmande?"
+    "text": "Hur många gånger får man se samma film på bio?"
   },
   {
     "category": "Film",
-    "text": "Vilken film har det bästa slutet?"
+    "text": "Hur lång får en film vara innan den känns för lång, i minuter?"
   },
   {
     "category": "Film",
@@ -815,7 +815,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Du får se en film på bio igen. Vad väljer du?"
+    "text": "Hur många filmer i en filmserie är lagom?"
   },
   {
     "category": "Film",
@@ -835,7 +835,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Vilken tecknad film är mest sorglig?"
+    "text": "Hur gammal bör man vara när man ser sin första skräckfilm?"
   },
   {
     "category": "Film",
@@ -843,7 +843,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Vilken film har det mest kända monstret?"
+    "text": "Hur många uppföljare borde en succéfilm få?"
   },
   {
     "category": "Film",
@@ -867,7 +867,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Vilken film är den bästa uppföljaren?"
+    "text": "Hur många minuter får en film vara innan den känns för kort?"
   },
   {
     "category": "Film",
@@ -895,7 +895,7 @@ const questions = [
   },
   {
     "category": "Film",
-    "text": "Första dejten på bio – vilken genre?"
+    "text": "Hur många timmar är lagom för en filmdejt?"
   }
 ];
 
